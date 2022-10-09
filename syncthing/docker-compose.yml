@@ -10,7 +10,7 @@ services:
       - TZ=Europe/London
     volumes:
       - ./config:/config
-      - /home/sam/sync:/sync
+      - /home/sam/sync:/config/Sync
     ports:
       - 8384:8384
       - 22000:22000/tcp

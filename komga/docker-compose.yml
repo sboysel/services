@@ -15,7 +15,6 @@ services:
         target: /etc/timezone
         read_only: true
     ports:
-      - 10.242.53.141:8085:8080
       - 127.0.0.1:8085:8080
     user: "1000:1000"
     # remove the whole environment section if you don't need it
